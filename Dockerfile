@@ -1,7 +1,7 @@
 #################
 # Build the app #
 #################
-FROM node:16 AS node
+FROM node:18 AS node
 WORKDIR /usr/local/app
 COPY ./ /usr/local/app/
 RUN npm install
